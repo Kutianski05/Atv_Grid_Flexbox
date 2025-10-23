@@ -1,0 +1,87 @@
+:root {
+  --fundo-escuro: #1e1e2f;
+  --fundo-caixa: rgba(255, 255, 255, 0.07);
+  --texto-azul: #00bfff;
+  --texto-claro: #e4e4e4;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: var(--fundo-escuro);
+  color: var(--texto-claro);
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom: 2px solid var(--texto-azul);
+}
+
+header h1 {
+  color: var(--texto-azul);
+  margin-bottom: 5px;
+}
+
+header p {
+  margin: 0 0 10px;
+}
+
+nav a {
+  color: var(--texto-azul);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: var(--texto-azul);
+}
+
+.conteudo,
+.exemplo {
+  background-color: var(--fundo-caixa);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.box {
+  background-color: var(--texto-azul);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 30px;
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid var(--texto-azul);
+  color: var(--texto-azul);
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 30px;
+}

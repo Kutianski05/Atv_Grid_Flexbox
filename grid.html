@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid | Hub de Aulas</title>
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <header>
+    <h1>Introdução ao Grid</h1>
+    <p>Grid é usado para layouts bidimensionais — com linhas E colunas.</p>
+    <nav>
+      <a href="index.html">⬅ Voltar ao Hub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="conteudo">
+      <h2>Conceitos Básicos</h2>
+      <p>O <strong>CSS Grid</strong> organiza os elementos em linhas e colunas, permitindo criar layouts flexíveis e precisos.</p>
+      <ul>
+        <li><strong>display: grid;</strong> — ativa o layout de grade.</li>
+        <li><strong>grid-template-columns:</strong> define o número de colunas.</li>
+        <li><strong>grid-template-rows:</strong> define o número de linhas.</li>
+        <li><strong>gap:</strong> define o espaçamento entre os itens.</li>
+      </ul>
+    </section>
+
+    <section class="exemplo">
+      <h2>Exemplo Prático</h2>
+      <div class="grid-container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </div>
+      <p>Usamos <code>grid-template-columns: repeat(3, 1fr);</code> para criar 3 colunas iguais.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por João Vitor Kutianski</p>
+  </footer>
+</body>
+</html>
